@@ -10,7 +10,7 @@
 					    <!-- breadcrumb -->	
 					     <ul class="breadcrumb">
 								<?php
-								$school_year_query = mysqli_query($conn,"select * from school_year order by school_year DESC")or die(mysqli_error());
+								$school_year_query = mysqli_query($conn,"select * from school_year order by school_year DESC")or die(mysqli_error($conn));
 								$school_year_query_row = mysqli_fetch_array($school_year_query);
 								$school_year = $school_year_query_row['school_year'];
 								?>
@@ -41,7 +41,7 @@
 								 $query_announcement = mysqli_query($conn,"select * from message
 																	LEFT JOIN teacher ON teacher.teacher_id = message.sender_id
 																	where  message.reciever_id = '$session_id' order by date_sended DESC
-																	")or die(mysqli_error());
+																	")or die(mysqli_error($conn));
 								$count_my_message = mysqli_num_rows($query_announcement);	
 								if ($count_my_message != '0'){
 								 while($row = mysqli_fetch_array($query_announcement)){

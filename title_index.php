@@ -13,10 +13,13 @@
 					<div class="span8">
 
 						<div class="title" >
-							<p class="chmsc" style="color:navy">PN SCHOOL OF MANAGEMENT</p>
+							<h3> 
+							<p class="chmsc" style="color:navy"></p>
+							
+							</h3>
 							<h3>
 
-								<p style="color:navy">PN UT SAILORS LMS</p>
+								<p style="color:navy">LMS FOR PN UTs</p>
 
 							</h3>
 						</div>
@@ -29,9 +32,9 @@
 					<div class="span12">
 						<br>
 						<div class="motto">
-							<p>PNSM EXCELS:</p>
-							<p>Excellence, Competence and Educational</p>
-							<p>Leadership and Managment</p>
+							<p></p>
+							<p></p>
+							<p></p>
 						</div>
 					</div>
 				</div>

@@ -91,6 +91,7 @@ body {
 
 body {
 	font-family: 'TR Century Gothic', Arial, sans-serif !important;
+	background-color: #cbf7ca;
 }
 
 @font-face {
@@ -109,7 +110,8 @@ body {
 }
 
 body {
-	background-color: rgba(0, 0, 0, 0) !important;
+	/* background-color: rgba(0, 0, 0, 0) !important; */
+	background-color: #cbf7ca !important;
 }
 
 .chmsc {

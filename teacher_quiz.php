@@ -10,7 +10,7 @@
 					    <!-- breadcrumb -->	
 									<ul class="breadcrumb">
 										<?php
-										$school_year_query = mysqli_query($conn,"select * from school_year order by school_year DESC")or die(mysqli_error());
+										$school_year_query = mysqli_query($conn,"select * from school_year order by school_year DESC")or die(mysqli_error($conn));
 										$school_year_query_row = mysqli_fetch_array($school_year_query);
 										$school_year = $school_year_query_row['school_year'];
 										?>
@@ -32,7 +32,7 @@
 									</div>
 								
 									<form action="delete_quiz.php" method="post">
-  									<table cellpadding="0" cellspacing="0" border="0" class="table" id="">
+  									<table cellpadding="0" cellspacing="0"  class="table" id="">
 									<a data-toggle="modal" href="#backup_delete" id="delete"  class="btn btn-danger" name=""><i class="icon-trash icon-large"></i></a>
 									<?php include('modal_delete_quiz.php'); ?>
 										<thead>
@@ -47,7 +47,7 @@
 										</thead>
 										<tbody>
                               		<?php
-										$query = mysqli_query($conn,"select * FROM quiz where teacher_id = '$session_id'  order by date_added DESC ")or die(mysqli_error());
+										$query = mysqli_query($conn,"select * FROM quiz where teacher_id = '$session_id'  order by date_added DESC ")or die(mysqli_error($conn));
 										while($row = mysqli_fetch_array($query)){
 										$id  = $row['quiz_id'];
 									?>                              

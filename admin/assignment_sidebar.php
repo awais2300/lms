@@ -20,10 +20,10 @@
 								<a href="teachers.php"><i class="icon-chevron-right"></i><i class="icon-group"></i> Teachers</a>
 							</li>
 							<li>
-								<a href="downloadable.php"><i class="icon-chevron-right"></i><i class="icon-download"></i> Downloadable Materials</a>
+								<a href="downloadable.php"><i class="icon-chevron-right"></i><i class="icon-download"></i> Uploads</a>
 							</li>
 							<li  class="active">
-								<a href="assignment.php"><i class="icon-chevron-right"></i><i class="icon-upload"></i> Uploaded Assignments</a>
+								<a href="assignment.php"><i class="icon-chevron-right"></i><i class="icon-upload"></i> Assignments</a>
 							</li>
 							<li>
 								<a href="content.php"><i class="icon-chevron-right"></i><i class="icon-file"></i> Content</a>

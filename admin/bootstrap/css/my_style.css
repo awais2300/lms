@@ -1,8 +1,8 @@
 body{
-     background: -moz-linear-gradient(center top , #FFFFFF, #D3D8E8) repeat fixed 0 0 rgba(0, 0, 0, 0);
+     background: -moz-linear-gradient(center top , #cbf7ca, #cbf7ca) repeat fixed 0 0 rgba(0, 0, 0, 0);
 }
 body { 
-	background: -moz-linear-gradient(center top , #FFFFFF, #D3D8E8) repeat fixed 0 0 rgba(0, 0, 0, 0);
+	background: -moz-linear-gradient(center top , #cbf7ca, #cbf7ca) repeat fixed 0 0 rgba(0, 0, 0, 0);
   -webkit-background-size: cover !important; 
   -moz-background-size: cover !important; 
   -o-background-size: cover !important; 
@@ -13,7 +13,7 @@ body {
 	and (min-width : 320px) 
 	and (max-width : 480px) {
 		body {
-			background-color: #F5F5F5;
+			background-color: #cbf7ca;
 			padding-bottom: 40px;
 			padding-top: 0px !important;
 		}
@@ -137,11 +137,12 @@ th {
     width: 90px;
 }
 .breadcrumb > li {
-   color:#333 !important;
+   color:white !important;
+   text-shadow: none !important;
 }
 .breadcrumb > li  a{
    cursor: default;
-   color:#333 !important;
+   color:white !important;
 }
 .breadcrumb > li  a:hover{
 	text-decoration:none;
@@ -164,6 +165,9 @@ th {
 
 body {
     font-family:'ProximaNova-Light',Helvetica,Arial,sans-serif !important;
+	font-size:medium;
+	font-weight: bold;
+	background-color: #cbf7ca;
 }
 #avatar {
 	-webkit-box-shadow: 2px 2px 5px rgba(0, 0, 6, 0.75);
@@ -177,12 +181,12 @@ body {
 
 }
 .alert-info{
-	background-color: #3B5998;
-    border-color: #3B5998;
+	background-color: navy;
+    border-color: navy;
     color: #fff;
 }
 .nav-list > .active > a, .nav-list > .active > a:hover, .nav-list > .active > a:focus {
-    background-color: #3B5998;
+    background-color: navy;
 
 }
 #login .form-signin{
@@ -202,7 +206,7 @@ footer{
     margin-right: 35px !important;
 }
 .navbar-inverse .navbar-inner {
-	background:#3B5998 !important;
+	background:navy !important;
 
 }
 .bnt-info{
@@ -217,8 +221,8 @@ footer{
     border-radius: 0 0 0 0 !important;
 }
 .btn-info{
-	background-color: #3B5998 !important; 
-    background-image: linear-gradient(to bottom, #3B5998, #3B5998) !important;
+	background-color: navy !important; 
+    background-image: linear-gradient(to bottom, navy, navy) !important;
     background-repeat: repeat-x !important;
     border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25) !important;
     color: #FFFFFF !important;

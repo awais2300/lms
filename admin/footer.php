@@ -1,5 +1,5 @@
 <div class="pull-right">
 		<footer>
-           <p>Programmed by: John Kevin Lorayna BSIS 4-A</p>
+           <p>PROGRAMMED BY: S/LT HAMZA SHEHZAD PN</p>
         <footer>
 </div>

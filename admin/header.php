@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="no-js">
     <head>
-        <title>PN UT SAILORS LMS</title>
+        <title>LMS FOR PN UTs</title>
         <!-- Bootstrap -->
 			<!-- <link href="images/logo.png" rel="icon" type="image"> -->
 			<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">

@@ -13,38 +13,38 @@
                             <div class="block-content collapse in">
 							<h3>Developers</h3>
 							<hr>
-                                <div class="span3">
+                                <div class="span4">
 										<center>
 										<img id="developers" src="admin/images/jkev.jpg" class="img-circle">
 										<hr>
-										<p>Name: John Kevin Lorayna</p>
-										<p>Address: Bago City</p>
-										<p>Email: jkevlorayna@gmail.com</p>
-										<p>Position: Programmer</p>
+										<p>S/LT HAMZA SHEHZAD PN</p>
+										<p>P NO : 11079</p> 
+									<!--	<p>Email: jkevlorayna@gmail.com</p>
+										<p>Position: Programmer</p> -->
 										</center>
 								</div>
-                                <div class="span3">
+                                <div class="span4">
 															<center>
 								<img id="developers" src="admin/images/jelyn.jpg" class="img-circle">
 								<hr>
-																				<p>Name: Jorgielyn Serfino</p>
+																				<p>S/LT M MUZAMMIL PN</p>
 
-										<p>Address: Bago City</p>
-										<p>Email: jkevlorayna@gmail.com</p>
-										<p>Position: Programmer</p>
+										<p>P NO: 11101</p>
+										<!--<p>Email: jkevlorayna@gmail.com</p>
+										<p>Position: Programmer</p>-->
 								</center>
 								</div>
-                                <div class="span3">
+                                <div class="span4">
 															<center>
 								<img id="developers" src="admin/images/jorge.jpg" class="img-circle">
 								<hr>
-												<p>Name: Jorgielyn Serfino</p>
-										<p>Address: Ilog</p>
-										<p>Email: jkevlorayna@gmail.com</p>
-										<p>Position: Project Manager</p>
+												<p>S/LT M YOUSAF PN</p>
+										<p>P NO: 11096</p>
+										<!--<p>Email: jkevlorayna@gmail.com</p>
+										<p>Position: Project Manager</p>-->
 								</center>
 								</div>
-                                <div class="span3">
+                               <!-- <div class="span3">
 															<center>
 								<img id="developers" src="admin/images/mich.jpg" class="img-circle">
 								<hr>
@@ -53,7 +53,7 @@
 										<p>Email: jkevlorayna@gmail.com</p>
 										<p>Position: Project Manager</p>
 								</center>
-								</div>
+								</div>-->
                             </div>
                         </div>
                         <!-- /block -->
